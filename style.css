@@ -1,0 +1,282 @@
+ /* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Top Bar */
+.top-bar {
+  background-color: #f7f7f7;
+  padding: 8px 0;
+  font-size: 14px;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+.top-bar div {
+  display: flex;
+  gap: 15px;
+}
+.top-bar a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 15px;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #d32f2f;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav ul li a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Promo Bar */
+.promo-bar {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+
+/* Hero Section */
+.hero {
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  color: #000;
+}
+.hero-content {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 30px;
+  max-width: 500px;
+}
+.hero-content h2 {
+  font-family: 'Cursive';
+  color: red;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+.hero-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.hero-content a {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+/* Sections */
+.section {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+.section-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+/* Categories */
+.categories {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.category img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Products */
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.product {
+  max-width: 200px;
+}
+.product img {
+  width: 100%;
+  height: auto;
+}
+
+/* Testimonial */
+.testimonial {
+  background-color: #f8f1e9;
+}
+.testimonial-info {
+  margin-top: 20px;
+}
+.testimonial-info img {
+  width: 60px;
+  border-radius: 50%;
+}
+
+/* Blogs */
+.blogs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.blog {
+  max-width: 300px;
+  text-align: left;
+}
+.blog img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Features */
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: #f2f2f2;
+  padding: 40px 20px;
+}
+.feature {
+  max-width: 200px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  color: #fff;
+  padding: 40px 20px;
+}
+footer .newsletter {
+  text-align: center;
+  margin-bottom: 30px;
+}
+footer input {
+  padding: 10px;
+  width: 250px;
+  margin-right: 10px;
+}
+footer button {
+  padding: 10px 20px;
+  background: red;
+  color: #fff;
+  border: none;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+footer h4 {
+  margin-bottom: 10px;
+}
+footer p {
+  font-size: 14px;
+}
+footer .copyright {
+  text-align: center;
+  font-size: 12px;
+  color: #aaa;
+}
+
+.category {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.category img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.category .overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 30px;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.category:hover .overlay {
+  opacity: 1;
+}
+
+.category .overlay h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.category .overlay a {
+  background: transparent;
+  border: none;
+  color: #fff;
+  border-bottom: 2px solid #f4c542;
+  text-decoration: none;
+  font-size: 16px;
+}

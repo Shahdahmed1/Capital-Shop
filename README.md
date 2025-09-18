@@ -1,5 +1,5 @@
- 🛍️Capital Shop – HTML & CSS Project
-
+ ##🛍️Capital Shop – HTML & CSS Project
+ 
 A responsive e-commerce landing page built with **HTML** and **CSS** during training.  
 This project demonstrates my skills in layout, styling, and responsive design.
 
@@ -18,8 +18,6 @@ This project demonstrates my skills in layout, styling, and responsive design.
 You can view the live version on GitHub Pages:  
 [https://Shahdahmed1.github.io/capital-shop/](https://Shahdahmed1.github.io/capital-shop/)
 
-## Screenshots
-(Add screenshots from the project here)
 
 ## Author
 **Shahd Ahmed**  

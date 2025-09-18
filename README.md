@@ -1,6 +1,6 @@
  # 🛍️Capital Shop – HTML & CSS Project
  
-A responsive e-commerce landing page built with **HTML** and **CSS** during training.  
+A responsive e-commerce websitebuilt with **HTML** and **CSS** during training.  
 This project demonstrates my skills in layout, styling, and responsive design.
 
 ## Features
